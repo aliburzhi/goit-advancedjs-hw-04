@@ -1,4 +1,3 @@
-import { getImagesByQuery } from './js/pixabay-api.js';
 import {
   clearGallery,
   createGallery,
@@ -9,6 +8,7 @@ import {
 } from './js/render-functions.js';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
+import { getImagesByQuery } from './js/pixabay-api.js';
 
 const refs = {
   formEl: document.querySelector('form'),
